@@ -1,4 +1,4 @@
-# 🦠 SGP3.py - Specular Grassmann-PIM v11
+# 🦠 SGP5.py - Specular Grassmann-PIM v11
 
 **Optimized Geometric Algebra Framework for Massive Protein Sequence Analysis (150M+ sequences)**
 
@@ -6,7 +6,7 @@
 
 ## 📋 Overview
 
-**SGP3.py** (Specular Grassmann-PIM) is a high-performance computational framework that applies **Clifford (geometric) algebra** to protein sequence analysis. It transforms amino acid sequences into 16-dimensional polarity vectors using the **PIM 3.0v** (Polarity Index Method) and performs advanced comparisons using:
+**SGP5.py** (Specular Grassmann-PIM) is a high-performance computational framework that applies **Clifford (geometric) algebra** to protein sequence analysis. It transforms amino acid sequences into 16-dimensional polarity vectors using the **PIM 3.0v** (Polarity Index Method) and performs advanced comparisons using:
 
 - **Grassmann wedge products** (functional similarity)
 - **Real geometric algebra reflection** (specular/charge-swap detection)
@@ -142,14 +142,14 @@ cd sgp3
 
 Download Test Files
 
-Place the required FASTA files (listed above) in the same directory as SGP3.py.
+Place the required FASTA files (listed above) in the same directory as SGP5.py.
 💻 Usage
 Basic Run
 bash
 
-python SGP3.py
+python SGP5.py
 
-Configuration (Inside SGP3.py)
+Configuration (Inside SGP5.py)
 Parameter	Default	Description
 STREAMING_MODE	True	Enable O(1) memory streaming for large files
 COHESION_SAMPLE_SIZE	10000	Number of random pairs for intra-group similarity
@@ -235,7 +235,7 @@ Hardware	Intel Core i5, 16 GB RAM, 1 TB SSD
 OS	Fedora 43 Linux (64-bit)
 📚 Citation
 
-If you use SGP3.py in your research, please cite:
+If you use SGP5.py in your research, please cite:
 
     Polanco, C., Uversky, V. N., Huberman, A., et al. (2026). Specular Grassmann-PIM and Protein Intrinsic Disorder Predisposition of the Lujo virus glycoprotein: A geometric algebra framework for viral protein characterization. iMetaMed, (in press).
 
