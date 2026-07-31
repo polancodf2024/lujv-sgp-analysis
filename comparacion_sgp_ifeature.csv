@@ -1,0 +1,18 @@
+Grupo,SGP,iFeature,Diferencia,Interpretación
+Cell-Penetrating Peptides,0.117,0.876141,0.759141,❌ Diferente
+Lassa Virus,0.088,0.972992,0.884992,❌ Diferente
+Non-CPP,0.072,0.9898,0.9178000000000001,❌ Diferente
+LCM Virus,0.063,0.992123,0.9291229999999999,❌ Diferente
+Intrinsically Disordered,0.056,0.982969,0.9269689999999999,❌ Diferente
+SIGNALS,0.053,0.992571,0.9395709999999999,❌ Diferente
+Junín Virus,0.036,0.992968,0.9569679999999999,❌ Diferente
+Partially Folded,0.036,0.973412,0.937412,❌ Diferente
+Machupo Virus,0.035,0.995364,0.960364,❌ Diferente
+Reviewed Virus,0.034,0.997688,0.963688,❌ Diferente
+Reviewed All,0.029,0.995085,0.966085,❌ Diferente
+Reviewed Human,0.025,0.996157,0.9711569999999999,❌ Diferente
+Unreviewed Human,0.021,0.996127,0.975127,❌ Diferente
+Unreviewed All,0.016,0.992159,0.976159,❌ Diferente
+DISEASE,0.019,0.996885,0.977885,❌ Diferente
+Unreviewed Virus,0.019,0.99843,0.97943,❌ Diferente
+MEMBRANE,0.015,0.995948,0.980948,❌ Diferente
