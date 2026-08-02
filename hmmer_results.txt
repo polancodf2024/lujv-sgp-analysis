@@ -1,0 +1,34 @@
+cpolanco@2806-106e-0028-4568-0000-0000-0000-0001:~/POLANCO/TAXONOMIALUJO$ # Ver resultados completos
+cat lujo_domains.txt
+
+# Ver solo dominios encontrados (sin comentarios)
+grep -v "^#" lujo_domains.txt
+
+# Ver los dominios con mejor E-value
+grep -v "^#" lujo_domains.txt | sort -k5 -n | head -10
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Arena_glycoprot      PF00798.24   483 tr|C5ILC1|C5ILC1_9VIRU -            454  1.1e-143  480.2  16.6   1   2   3.7e-29   5.6e-25   88.7   4.6     1   169     1   160     1   173 0.88 Arenavirus glycoprotein
+Arena_glycoprot      PF00798.24   483 tr|C5ILC1|C5ILC1_9VIRU -            454  1.1e-143  480.2  16.6   2   2  7.8e-123  1.2e-118  397.6   4.1   218   481   182   444   174   446 0.97 Arenavirus glycoprotein
+AAA_9                PF12781.14   222 tr|C5ILC1|C5ILC1_9VIRU -            454     0.064   13.1   0.7   1   2    0.0068     1e+02    2.6   0.0   135   187   148   198   140   220 0.82 ATP-binding dynein motor region
+AAA_9                PF12781.14   222 tr|C5ILC1|C5ILC1_9VIRU -            454     0.064   13.1   0.7   2   2   0.00011       1.6    8.5   0.1    75   123   362   408   355   413 0.88 ATP-binding dynein motor region
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      lujo.unico.dat0
+# Target file:     Pfam-A.hmm
+# Option settings: hmmscan --domtblout lujo_domains.txt --noali Pfam-A.hmm lujo.unico.dat0 
+# Current dir:     /home/cpolanco/POLANCO/TAXONOMIALUJO
+# Date:            Sat Aug  1 20:07:10 2026
+# [ok]
+Arena_glycoprot      PF00798.24   483 tr|C5ILC1|C5ILC1_9VIRU -            454  1.1e-143  480.2  16.6   1   2   3.7e-29   5.6e-25   88.7   4.6     1   169     1   160     1   173 0.88 Arenavirus glycoprotein
+Arena_glycoprot      PF00798.24   483 tr|C5ILC1|C5ILC1_9VIRU -            454  1.1e-143  480.2  16.6   2   2  7.8e-123  1.2e-118  397.6   4.1   218   481   182   444   174   446 0.97 Arenavirus glycoprotein
+AAA_9                PF12781.14   222 tr|C5ILC1|C5ILC1_9VIRU -            454     0.064   13.1   0.7   1   2    0.0068     1e+02    2.6   0.0   135   187   148   198   140   220 0.82 ATP-binding dynein motor region
+AAA_9                PF12781.14   222 tr|C5ILC1|C5ILC1_9VIRU -            454     0.064   13.1   0.7   2   2   0.00011       1.6    8.5   0.1    75   123   362   408   355   413 0.88 ATP-binding dynein motor region
+AAA_9                PF12781.14   222 tr|C5ILC1|C5ILC1_9VIRU -            454     0.064   13.1   0.7   1   2    0.0068     1e+02    2.6   0.0   135   187   148   198   140   220 0.82 ATP-binding dynein motor region
+AAA_9                PF12781.14   222 tr|C5ILC1|C5ILC1_9VIRU -            454     0.064   13.1   0.7   2   2   0.00011       1.6    8.5   0.1    75   123   362   408   355   413 0.88 ATP-binding dynein motor region
+Arena_glycoprot      PF00798.24   483 tr|C5ILC1|C5ILC1_9VIRU -            454  1.1e-143  480.2  16.6   1   2   3.7e-29   5.6e-25   88.7   4.6     1   169     1   160     1   173 0.88 Arenavirus glycoprotein
+Arena_glycoprot      PF00798.24   483 tr|C5ILC1|C5ILC1_9VIRU -            454  1.1e-143  480.2  16.6   2   2  7.8e-123  1.2e-118  397.6   4.1   218   481   182   444   174   446 0.97 Arenavirus glycoprotein
+
